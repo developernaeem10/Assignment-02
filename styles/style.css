@@ -243,12 +243,21 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     grid-column: span 2;
     grid-row: span 2;
     background-color: #ffffff;
+    border-radius: 16px;
+    position: relative;
+}
+.pic-card2, .pic-card3, .pic-card4, .pic-card5, h4{
+    background-color: #ffffff;
+    border-radius: 16px;
+    color: #000000;
 }
 .pic-card-description{
     padding: 20px;
+    margin-left: 30px;
 }
 .card-img{
     width: 100%;
+    border-radius: 16px 16px 0 0;
 }
 /* .pic-card1 button{
     width: 170px;
@@ -258,6 +267,19 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     border: none;
     border-radius: 45px;
 } */
+.story-btn{
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+    padding: 10px 20px;
+    background-color: #3CD8E8;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #ffffff;
+    border-radius: 47px;
+    border: none;
+    
+}
 .pic-card1 button{
     width: 174px;
     height: 47px;
@@ -267,14 +289,24 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     color: #ffffff;
     border-radius: 47px;
     border: none;
+    margin: -120px 0 0 40px;
 }
+.green{
+    background-color: #95B226; 
+}
+.blue{
+    background-color: #5D58F0; 
+}
+
 .pic-card1 h4{
     font-size: 1.5rem;
     font-weight: 700;
     margin: 40px 0;
+    width: 400px;
+    height: 70px;
 }
 .pic-card1 p{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 500;
     color: #666666;
 }
@@ -327,5 +359,27 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     }
     .standard-card{
         margin: 10px;
+    }
+    .pic-card1{
+        display: none;
+    }
+    .stories-content{
+        flex-wrap: wrap;
+    }
+    .pic-card-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .stories-content{
+        width: 90%;
+    }
+    .pic-card-mobile{
+        padding: 10px;
+        font-size: 14px;
+    }
+    .story-btn{
+        padding: 10px 10px;
+        font-weight: 400;
+        font-size: 14px;
+        left: 5px;
     }
 }
