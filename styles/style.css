@@ -345,6 +345,9 @@ footer{
 .footer h2{
     margin-bottom: 30px;
 }
+.pic-card-mobile{
+    padding: 20px;
+}
 @media screen and (max-width: 576px){
     .nav-start h3, 
     .nav-list,
