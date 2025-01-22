@@ -310,6 +310,41 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     font-weight: 500;
     color: #666666;
 }
+footer{
+    background-color: #01ACFD;
+    color: white;
+    padding: 100px 0;
+}
+.footer{
+    margin: auto 200px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.about-footer{
+    width: 40%;
+}
+.brand{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 30px;
+}
+.footer-item ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.footer-icon img{
+    margin-top: 20px;
+    margin-right: 20px;
+    height: auto;
+}
+.footer h2{
+    margin-bottom: 30px;
+}
 @media screen and (max-width: 576px){
     .nav-start h3, 
     .nav-list,
@@ -381,5 +416,21 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
         font-weight: 400;
         font-size: 14px;
         left: 5px;
+    }
+    footer{
+        background-color: #01ACFD;
+        color: white;
+        padding: 100px 0;
+    }
+    .footer{
+        margin: 0px;
+        flex-direction: column;
+    }
+    .about-footer{
+        width: 100%;
+    }
+    .footer h2{
+        margin-bottom: 30px;
+        margin-top: 10px;
     }
 }
